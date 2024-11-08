@@ -48,15 +48,15 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Visible: 1
+    - _Visible: 0
     - _amount: -35.99
-    - _noise_Scale: 2.1
+    - _noise_Scale: 2.72
     - _speed: 104.39
     m_Colors:
     - _Color: {r: 1, g: 0.62102604, b: 0, a: 0}
     - _FireSpeed: {r: 0.2, g: 0.4, b: 0, a: 0}
     - _Second_Color: {r: 1, g: 0, b: 0, a: 0}
-    - _Speed: {r: 0.23, g: 0.04, b: 0, a: 0}
+    - _Speed: {r: 0.1, g: 0.22, b: 0, a: 0}
     - _Tiling: {r: 10000, g: 10000, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7033321676164311498
