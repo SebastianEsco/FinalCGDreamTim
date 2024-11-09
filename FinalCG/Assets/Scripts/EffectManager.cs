@@ -7,6 +7,10 @@ public class EffectManager : MonoBehaviour
 {
 
     public PlayableDirector[] timelines;
+    int efectoReproduciendo;
+
+    public GameObject escena, suelo;
+    public Light luz;
 
     private void Start()
     {
@@ -27,9 +31,51 @@ public class EffectManager : MonoBehaviour
             else
             {
                 timelines[i].Play();
+                efectoReproduciendo = indexEfecto;
             }
         }
     }
+
+    public void PausarEfecto()
+    {
+        if(Time.timeScale != 0)
+        {
+            Time.timeScale = 0;
+        }
+        else
+        {
+            Time.timeScale = 1;
+        }
+        
+    }
+
+    public void ActivarEscena()
+    {
+        if(suelo.activeSelf)
+        {
+            escena.SetActive(true);
+            suelo.SetActive(false);
+        }
+        else
+        {
+            escena.SetActive(false);
+            suelo.SetActive(true);
+        }
+    }
+
+    public void DiaNoche()
+    {
+        if(luz.intensity > 1)
+        {
+            luz.intensity = 0.3f;
+        }
+        else
+        {
+            luz.intensity = 2;
+        }
+    }
+
+  
 
 
 }
