@@ -7,29 +7,29 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HOla
-  m_Shader: {fileID: -6465566751694194690, guid: 2aecbb2e5d559474faf49d9ac617748c,
+  m_Name: Shader Graphs_FadeBall
+  m_Shader: {fileID: -6465566751694194690, guid: 351aa5116f3c45342a2efabd0e25c6ad,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _ALPHATEST_ON
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _FireShape:
-        m_Texture: {fileID: 2800000, guid: ab74b9a523469ae41bcf309855446257, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_d574f1e9e7cb438494f25a67844bcc5e_Texture_1_Texture2D:
-        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 2800000, guid: b3bdf8edbca99c147a99177e14c6f913, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -46,20 +46,28 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaClip: 1
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _CastShadows: 1
+    - _Cull: 0
+    - _CutOffHeight: 0.05
+    - _DstBlend: 10
+    - _EdgeWidth: 0.46
+    - _NoiseScale: 50
+    - _NoiseStrength: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Visible: -0.004715632
-    - _amount: -35.99
-    - _noise_Scale: 9.5
-    - _speed: 104.39
+    - _SrcBlend: 5
+    - _Surface: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 1, g: 0.62102604, b: 0, a: 0}
-    - _FireSpeed: {r: 0.2, g: 0.4, b: 0, a: 0}
-    - _Second_Color: {r: 1, g: 0, b: 0, a: 0}
-    - _Speed: {r: 0.12, g: 0.09, b: 0, a: 0}
-    - _Tiling: {r: 10000, g: 10000, b: 0, a: 0}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EdgeColor: {r: 5.3403125, g: 0.49515426, b: 0, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &7033321676164311498
+--- !u!114 &546899418253611919
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

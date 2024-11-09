@@ -74,7 +74,7 @@ public class EffectManager : MonoBehaviour
         }
         else
         {
-            luz.intensity = 2;
+            luz.intensity = 1.5f;
         }
     }
 
