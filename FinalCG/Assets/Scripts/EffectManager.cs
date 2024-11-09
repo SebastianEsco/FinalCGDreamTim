@@ -12,6 +12,9 @@ public class EffectManager : MonoBehaviour
     public GameObject escena, suelo;
     public Light luz;
 
+    public GameObject[] posicionesCamara;
+    public Camera camara;
+
     private void Start()
     {
         foreach (var d in timelines)
@@ -73,6 +76,12 @@ public class EffectManager : MonoBehaviour
         {
             luz.intensity = 2;
         }
+    }
+
+    public void PosicionDeCamara(int posicion)
+    {
+        camara.transform.position = posicionesCamara[posicion].transform.position;
+        camara.transform.rotation = posicionesCamara[posicion].transform.rotation;
     }
 
   
