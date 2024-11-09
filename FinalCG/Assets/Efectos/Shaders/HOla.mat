@@ -48,7 +48,7 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Visible: -0.004715632
+    - _Visible: 0
     - _amount: -35.99
     - _noise_Scale: 9.5
     - _speed: 104.39
