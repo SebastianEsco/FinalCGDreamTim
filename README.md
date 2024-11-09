@@ -10,5 +10,4 @@
 ###
 
 # PAGINA WEB CON LOS EFECTOS
-##
-    https://sebastianescobar.itch.io/final-cg
+   https://sebastianescobar.itch.io/final-cg
