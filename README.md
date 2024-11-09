@@ -11,3 +11,10 @@
 
 # PAGINA WEB CON LOS EFECTOS
    https://sebastianescobar.itch.io/final-cg
+# SKETCHES
+
+![image](https://github.com/user-attachments/assets/3d2dfdb2-e0f7-48af-a052-0c2679660448)
+
+![image](https://github.com/user-attachments/assets/a07710f1-baee-4399-8d9c-ebb9a3c2d472)
+
+![image](https://github.com/user-attachments/assets/8b0f1ba9-e7b2-4b21-864b-7ba8e00d31c8)
